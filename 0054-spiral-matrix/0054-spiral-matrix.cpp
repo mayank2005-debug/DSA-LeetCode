@@ -6,10 +6,7 @@ public:
         int endcol=matrix[0].size()-1;
         int strow=0;
         int stcol=0;
-        if(endrow==1)
-        {
-            
-        }
+        
         while(strow<=endrow && stcol<=endcol)
         {
             for(int i=stcol; i<= endcol; i++)
