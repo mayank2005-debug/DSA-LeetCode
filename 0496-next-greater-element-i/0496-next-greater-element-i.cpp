@@ -26,15 +26,9 @@ public:
             mp[nums2[i]]=ans[i];
         }
         vector<int> final;
-        for(int i=0;i<nums1.size();i++)
+      for(int i=0;i<nums1.size();i++)
         {
-            for(auto x:mp)
-            {
-                if(x.first==nums1[i])
-                {
-                    final.push_back(x.second);
-                }
-            }
+            final.push_back(mp[nums1[i]]);
         }
         return final;
     }
