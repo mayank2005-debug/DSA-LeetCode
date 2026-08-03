@@ -5,8 +5,6 @@ public:
         vector<int> ans;
         int total = 1;
         int zeroCount = 0;
-
-        // Calculate product of non-zero elements and count zeros
         for(int i = 0; i < nums.size(); i++)
         {
             if(nums[i] == 0)
